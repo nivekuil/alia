@@ -1,4 +1,4 @@
-(defproject cc.qbits/alia "_"
+(defproject com.nivekuil/alia-scylla "_"
 
   :plugins [[lein-parent "0.3.8"]
             [exoscale/lein-replace "0.1.1"]]
@@ -22,7 +22,7 @@
   :exclusions [org.clojure/clojure]
 
   :dependencies [[cc.qbits/commons "0.5.2"]
-                 [com.datastax.oss/java-driver-core-shaded "4.9.0"]]
+                 [com.scylladb/java-driver-core-shaded "4.9.0-scylla-1"]]
 
   :codox {:source-uri "https://github.com/mpenet/alia/blob/master/{filepath}#L{line}"
           :metadata {:doc/format :markdown}
